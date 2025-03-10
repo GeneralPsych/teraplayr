@@ -4,9 +4,9 @@ import { MessageCircle, Github, Twitter, Youtube } from "lucide-react";
 
 export default function Footer() {
   const socialLinks = [
-    { icon: <Github className="w-5 h-5" />, href: "https://github.com/terabox-tech", label: "GitHub" },
-    { icon: <Twitter className="w-5 h-5" />, href: "https://twitter.com/terabox_tech", label: "Twitter" },
-    { icon: <Youtube className="w-5 h-5" />, href: "https://youtube.com/@terabox_tech", label: "YouTube" },
+    { icon: <Github className="w-5 h-5" />, href: "https://github.com/", label: "GitHub" },
+    { icon: <Twitter className="w-5 h-5" />, href: "https://twitter.com/", label: "Twitter" },
+    { icon: <Youtube className="w-5 h-5" />, href: "https://youtube.com/", label: "YouTube" },
   ];
 
   return (
