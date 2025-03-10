@@ -43,12 +43,12 @@ const jsonld = `
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "TeraPlayr",
-  "url": "https://teraplayr.com",
-  "description": "Watch, Embed and download Terabox Videos for Free🔥",
+  "name": "Terabox.tech",
+  "url": "https://terabox.tech",
+  "description": "Watch, Embed and download Terabox Videos 🔥 100% working ✅ Download Terabox videos with TeraDL",
   "publisher": {
     "@type": "Organization",
-    "name": "Teraplayr"
+    "name": "Terabox.tech"
   },
   "aggregateRating": {
     "@type": "AggregateRating",
