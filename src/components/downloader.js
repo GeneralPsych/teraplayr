@@ -266,12 +266,12 @@ export const TeraboxScriptSection = () => {
             {/* Price and Timer Section */}
             <div className="bg-slate-900/50 p-4 rounded-xl">
               <div className="text-2xl font-bold text-white mb-2">
-                <span className="line-through text-gray-400">No Login Needed</span>
+                <span className="line-through text-gray-400">Login Needed</span>
                 <span className="ml-3 text-green-400">No App or Download Needed</span>
                 <span className="ml-2 text-amber-400">Only Paste & Play</span>
               </div>
               <div className="text-amber-400 font-semibold">
-                Please support us and dont use Ad-blockers:
+                🚫Please support us by avoiding Ad-blockers🚫
               </div>
               </div>
             </div>
