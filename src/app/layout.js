@@ -6,22 +6,22 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Terabox Video Player, Embed, Download Terabox videos free",
-  description: "Watch, Embed and download Terabox Videos 🔥 100% working ✅ Download Terabox videos with TeraDL",
+  description: "Watch, Embed and download Terabox Videos 🔥 100% working ✅ Download Terabox videos with teraplayr.com",
   keywords: ["terabox", "terabox direct download", "terabox downloader", "terabox online downloader", "terabox player", "terabox online player", "terabox links", "terabox link converter", "terabox direct link", "terabox direct videos", "terabox direct files", "terabox bypass", "terabox link bypass", "terabox video downloader", "terabox video download", "terabox link downloader", "terabox downloader online"],
-  authors: [{ name: "Terabox.tech" }],
+  authors: [{ name: "teraplayr.com" }],
   robots: "index, follow",
   openGraph: {
     title: "Terabox Video Player, Embed, Download Terabox videos",
-    description: "Watch, Embed and download Terabox Videos 🔥 100% working ✅ Download Terabox videos with TeraDL",
+    description: "Watch, Embed and download Terabox Videos 🔥 100% working ✅ Download Terabox videos with teraplayr.com",
     type: "website",
     images: "./og.png",
-    url: "https://terabox.tech",
-    siteName: "Terabox.tech",
+    url: "https://teraplayr.com",
+    siteName: "teraplayr.com",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Terabox.tech Player, Embed, Download Terabox videos",
-    description: "Watch, Embed and download Terabox Videos 🔥 100% working ✅ Download Terabox videos with TeraDL",
+    title: "teraplayr.com Player, Embed, Download Terabox videos",
+    description: "Watch, Embed and download Terabox Videos 🔥 100% working ✅ Download Terabox videos with teraplayr.com",
     images: "./og.png",
     site: "@microsoft",
   },
@@ -43,12 +43,12 @@ const jsonld = `
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "Terabox.tech",
-  "url": "https://terabox.tech",
-  "description": "Watch, Embed and download Terabox Videos 🔥 100% working ✅ Download Terabox videos with TeraDL",
+  "name": "teraplayr.com",
+  "url": "https://teraplayr.com",
+  "description": "Watch, Embed and download Terabox Videos 🔥 100% working ✅ Download Terabox videos with teraplayr.com",
   "publisher": {
     "@type": "Organization",
-    "name": "Terabox.tech"
+    "name": "teraplayr.com"
   },
   "aggregateRating": {
     "@type": "AggregateRating",
@@ -70,7 +70,6 @@ export default function RootLayout({ children }) {
         <div className="analytics">
           <div dangerouslySetInnerHTML={{__html: analytics}}></div>
         </div>
-        <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1828915420581549" crossorigin="anonymous"></Script>
         <div dangerouslySetInnerHTML={{ __html: jsonld }}></div>
       </head>
       <body className={inter.className}>{children}</body>
