@@ -78,10 +78,10 @@ const Downloader = () => {
         {/* Hero Section */}
         <div className="text-center space-y-4">
           <h1 className="text-5xl font-black bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-violet-400">
-            Terabox Video Downloader
+            Terabox Video Player
           </h1>
           <p className="text-slate-400 text-lg">
-            Download, embed and share Terabox videos seamlessly
+            Watch, Download & Share Terabox videos free
           </p>
         </div>
 
@@ -256,67 +256,8 @@ export const TeraboxScriptSection = () => {
   }
 
   return (
-    <section className="py-16 text-center">
-      <div className="max-w-3xl mx-auto px-4">
-        <div className="bg-slate-800/50 backdrop-blur-lg rounded-2xl p-8 shadow-xl border border-slate-700">
-          <div className="space-y-6">
-            <h2 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-violet-400">
-              Premium Terabox Script
-            </h2>
-
-            {/* Price and Timer Section */}
-            <div className="bg-slate-900/50 p-4 rounded-xl">
-              <div className="text-2xl font-bold text-white mb-2">
-                <span className="line-through text-gray-400">₹{originalPrice.toFixed(2)}</span>
-                <span className="ml-3 text-green-400">₹{currentPrice}</span>
-                <span className="ml-2 text-amber-400">({discountPercentage}% OFF)</span>
-              </div>
-              <div className="text-amber-400 font-semibold">
-                Limited Time Offer Ends On March 9, 2025:
-                <div className="flex justify-center gap-4 mt-2">
-                  <div className="bg-slate-800 px-3 py-2 rounded-lg">
-                    <span className="text-xl">{timeLeft.days}</span>d
-                  </div>
-                  <div className="bg-slate-800 px-3 py-2 rounded-lg">
-                    <span className="text-xl">{timeLeft.hours}</span>h
-                  </div>
-                  <div className="bg-slate-800 px-3 py-2 rounded-lg">
-                    <span className="text-xl">{timeLeft.minutes}</span>m
-                  </div>
-                  <div className="bg-slate-800 px-3 py-2 rounded-lg">
-                    <span className="text-xl">{timeLeft.seconds}</span>s
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Features and Benefits Grid */}
-            <div className="grid md:grid-cols-2 gap-6 text-left sr-only">
-              <div className="space-y-4">
-                <h3 className="text-xl font-semibold text-white">Features</h3>
-                <ul className="space-y-2 text-slate-300">
-                  <li>✓ Direct video downloads</li>
-                  <li>✓ Embed player support</li>
-                  <li>✓ Auto video quality selection</li>
-                  <li>✓ No watermarks</li>
-                  <li>✓ Lifetime updates</li>
-                </ul>
-              </div>
-
-              <div className="space-y-4">
-                <h3 className="text-xl font-semibold text-white">Benefits</h3>
-                <ul className="space-y-2 text-slate-300">
-                  <li>✓ Easy integration</li>
-                  <li>✓ 24/7 Technical support</li>
-                  <li>✓ Documentation included</li>
-                  <li>✓ API access</li>
-                  <li>✓ Multiple domain license</li>
-                </ul>
-              </div>
-            </div>
-
-            {/* Action Button and Links */}
-            {/* Remove the old buttons and links */}
+  
+                  
           </div>
         </div>
       </div>
