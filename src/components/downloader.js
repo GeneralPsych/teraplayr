@@ -287,6 +287,7 @@ export const TeraboxScriptSection = () => {
                   <li>✓ No watermarks</li>
                 </ul>
               </div>
+              </div>
             </div>
           </div>
         </div>
