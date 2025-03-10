@@ -22,10 +22,10 @@ const Content = () => {
           <p className="text-lg">
             Email us at:{" "}
             <a 
-              href="mailto:mail@terabox.tech" 
+              href="mailto:noreply@teraplayr.com" 
               className="text-blue-600 dark:text-blue-400 hover:underline"
             >
-              mail@terabox.tech
+              We are working to provide support, We will be available soon!
             </a>
           </p>
         </div>
