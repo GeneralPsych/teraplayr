@@ -254,4 +254,43 @@ export const TeraboxScriptSection = () => {
   if (!mounted) {
     return null;
   }
+  return (
+    <section className="py-16 text-center">
+      <div className="max-w-3xl mx-auto px-4">
+        <div className="bg-slate-800/50 backdrop-blur-lg rounded-2xl p-8 shadow-xl border border-slate-700">
+          <div className="space-y-6">
+            <h2 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-violet-400">
+              Free Terabox Video Player
+            </h2>
+
+            {/* Price and Timer Section */}
+            <div className="bg-slate-900/50 p-4 rounded-xl">
+              <div className="text-2xl font-bold text-white mb-2">
+                <span className="line-through text-gray-400">No Login Needed</span>
+                <span className="ml-3 text-green-400">No App or Download Needed</span>
+                <span className="ml-2 text-amber-400">Only Paste & Play</span>
+              </div>
+              <div className="text-amber-400 font-semibold">
+                Please support us and dont use Ad-blockers:
+              </div>
+              </div>
+            </div>
+
+            {/* Features and Benefits Grid */}
+            <div className="grid md:grid-cols-2 gap-6 text-left sr-only">
+              <div className="space-y-4">
+                <h3 className="text-xl font-semibold text-white">Features</h3>
+                <ul className="space-y-2 text-slate-300">
+                  <li>✓ Direct video downloads</li>
+                  <li>✓ Embed player support</li>
+                  <li>✓ Auto video quality selection</li>
+                  <li>✓ No watermarks</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 };
