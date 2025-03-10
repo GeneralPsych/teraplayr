@@ -254,7 +254,4 @@ export const TeraboxScriptSection = () => {
   if (!mounted) {
     return null;
   }
-
-  
-  );
 };
