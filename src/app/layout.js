@@ -45,7 +45,7 @@ const jsonld = `
   "@type": "WebSite",
   "name": "teraplayr.com",
   "url": "https://teraplayr.com",
-  "description": "Watch, Embed and download Terabox Videos 🔥 100% working ✅ Download Terabox videos with teraplayr.com",
+  "description": "Watch, Embed and download Terabox Videos 🔥 100% working ✅ Download Terabox videos with TeraDL",
   "publisher": {
     "@type": "Organization",
     "name": "teraplayr.com"
