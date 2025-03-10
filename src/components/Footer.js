@@ -74,7 +74,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="text-center text-sm">
-          <p>&copy; {new Date().getFullYear()} Terabox.tech. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} TeraPlayr All rights reserved.</p>
         </div>
       </div>
     </footer>
