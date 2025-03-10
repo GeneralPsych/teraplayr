@@ -255,12 +255,6 @@ export const TeraboxScriptSection = () => {
     return null;
   }
 
-  return (
   
-                  
-          </div>
-        </div>
-      </div>
-    </section>
   );
 };
