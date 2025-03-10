@@ -12,7 +12,7 @@ export default function SrOnly() {
           terabox link video downloader online, terabox video downloader,terabox link converter, terabox direct link generator, terabox bypass, terabox downloader online, terabox downloader
           </p>
           <p className="description">
-          Terabox Downloader | 100% working | Download terabox video, files, zip | Terabox.tech
+          Terabox Downloader | 100% working | Download terabox video, files, zip | teraplayr.com
           </p>
           <p className="max-w-[1280px] text-lg py-3 ">
             TeraBox is a free cloud storage tool, offers 1TB of secure storage
@@ -31,10 +31,10 @@ export default function SrOnly() {
         </div>
         <div className="flex max-w-[1280px] flex-col items-start gap-2">
           <h2 className="text-2xl font-semibold leading-tight tracking-normal md:text-3xl">
-            What is Terabox.tech?
+            What is teraplayr.com?
           </h2>
           <p className="max-w-[1280px] text-lg py-3 ">
-            Terabox.tech is a helpful tool for downloading files and{" "}
+            teraplayr.com is a helpful tool for downloading files and{" "}
            
             requires you to log in to access these files. However, with our
             Terabox downloader, you can easily download{" "}
@@ -42,7 +42,7 @@ export default function SrOnly() {
             and files directly from terabox servers. It's important to note that
             we don&amp;apos;t store any files or data. Our goal is to provide a
             user-friendly solution for downloading content. Download your
-            desired files with Terabox.tech.
+            desired files with teraplayr.com.
           </p>
         </div>
         <div className="flex max-w-[1280px] flex-col items-start gap-2">
@@ -120,7 +120,7 @@ export default function SrOnly() {
             This website is not an official Terabox website and we are not
             associated with{" "}
             
-            .app or Flextech Inc. Terabox.tech is just a tool for
+            .app or Flextech Inc. teraplayr.com is just a tool for
             generating direct download links of terabox file links. We do not
             host, upload or store any user files on our{" "}
         
