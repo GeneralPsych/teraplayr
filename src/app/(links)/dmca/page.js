@@ -33,7 +33,7 @@ const Content = () => {
         </p>
         <p>
           To report unauthorized use of your copyrighted work, email our
-          designated DMCA Agent at mail@terabox.tech with:
+          designated DMCA Agent at mail@teraplayr.com with:
         </p>
         <ul>
           <li>Your valid physical or electronic signature</li>
@@ -71,13 +71,13 @@ const Content = () => {
           This website is not an official Terabox website and we are not
           associated with terabox.app or Flextech Inc.
         </p>
-        <p>© 2024 - Present TeraDownloader.com All rights reserved.</p>
+        <p>© 2024 - Present Teraplayer.com All rights reserved.</p>
       </section>
 
       <div className="bg-gray-50 dark:bg-gray-900 rounded-lg p-6 mt-8">
         <h3 className="text-xl font-semibold mb-4">Contact Our DMCA Agent</h3>
         <p className="text-blue-600 dark:text-blue-400">
-          mail@terabox.tech
+          noreply@teraplayr.com
         </p>
       </div>
     </div>
