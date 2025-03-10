@@ -286,8 +286,7 @@ export const TeraboxScriptSection = () => {
                   <li>✓ Auto video quality selection</li>
                   <li>✓ No watermarks</li>
                 </ul>
-              </div>
-              </div>
+              
             </div>
           </div>
         </div>
