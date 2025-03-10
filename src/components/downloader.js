@@ -316,50 +316,6 @@ export const TeraboxScriptSection = () => {
             </div>
 
             {/* Action Button and Links */}
-            <div className="space-y-4">
-              <a
-                href="https://payments.cashfree.com/forms/teradl"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-8 py-4 bg-green-600 hover:bg-green-500 rounded-xl transition-all duration-200 shadow-lg hover:shadow-green-500/25 text-white text-lg font-semibold inline-block"
-              >
-                <RocketIcon className="w-5 h-5 inline-block mr-2" />
-                Get Premium Script - ₹999 Only
-              </a>
-              
-              <div className="text-sm space-y-2 ">
-                <div>
-                  <a
-                    href="https://t.me/player1921"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-400 hover:text-blue-300"
-                  >
-                    Contact on Telegram
-                  </a>
-                </div>
-                <div>
-                  <a
-                    href="https://marketplace.terabox.tech/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-amber-400 hover:text-amber-300"
-                  >
-                    Explore Marketplace
-                  </a>
-                </div>
-                <div className="text-slate-400">
-                  Need help? Contact our support team at{" "}
-                  <a
-                    href="mailto:jokes4ush@gmail.com"
-                    className="text-blue-400 hover:text-blue-300"
-                  >
-                    mail@terabox.tech
-                  </a>
-                </div>
-              </div>
-            </div>
-
             {/* Remove the old buttons and links */}
           </div>
         </div>
