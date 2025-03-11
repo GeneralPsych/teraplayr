@@ -29,13 +29,13 @@ export const metadata = {
 
 let analytics = `
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PBM4Y9YM0M"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-12EDBKJZQ3"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-PBM4Y9YM0M');
+  gtag('config', 'G-12EDBKJZQ3');
 </script>`;
 
 const jsonld = `
@@ -57,6 +57,7 @@ const jsonld = `
   }
 }
 </script>`;
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className=" bg-black"  >
@@ -69,6 +70,7 @@ export default function RootLayout({ children }) {
         <div className="analytics">
           <div dangerouslySetInnerHTML={{__html: analytics}}></div>
         </div>
+        <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1828915420581549" crossorigin="anonymous"></Script>
         <div dangerouslySetInnerHTML={{ __html: jsonld }}></div>
       </head>
       <body className={inter.className}>{children}</body>
