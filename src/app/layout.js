@@ -29,14 +29,14 @@ export const metadata = {
 
 let analytics = `
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-12EDBKJZQ3"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7RJW86QMV7"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-12EDBKJZQ3');
-</script>`;
+  gtag('config', 'G-7RJW86QMV7');
+</script>
 
 const jsonld = `
 <script type="application/ld+json">
