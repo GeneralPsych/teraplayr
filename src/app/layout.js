@@ -8,19 +8,19 @@ export const metadata = {
   title: "Terabox Video Player, Embed, Download Terabox videos free",
   description: "Watch, Embed and download Terabox Videos 🔥 100% working ✅ Download Terabox videos with TeraDL",
   keywords: ["terabox", "terabox direct download", "terabox downloader", "terabox online downloader", "terabox player", "terabox online player", "terabox links", "terabox link converter", "terabox direct link", "terabox direct videos", "terabox direct files", "terabox bypass", "terabox link bypass", "terabox video downloader", "terabox video download", "terabox link downloader", "terabox downloader online"],
-  authors: [{ name: "Terabox.tech" }],
+  authors: [{ name: "teraplayr.com" }],
   robots: "index, follow",
   openGraph: {
     title: "Terabox Video Player, Embed, Download Terabox videos",
     description: "Watch, Embed and download Terabox Videos 🔥 100% working ✅ Download Terabox videos with TeraDL",
     type: "website",
     images: "./og.png",
-    url: "https://terabox.tech",
-    siteName: "Terabox.tech",
+    url: "https://teraplayr.com",
+    siteName: "teraplayr.com",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Terabox.tech Player, Embed, Download Terabox videos",
+    title: "teraplayr.com Player, Embed, Download Terabox videos",
     description: "Watch, Embed and download Terabox Videos 🔥 100% working ✅ Download Terabox videos with TeraDL",
     images: "./og.png",
     site: "@microsoft",
@@ -43,12 +43,12 @@ const jsonld = `
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "Terabox.tech",
-  "url": "https://terabox.tech",
+  "name": "teraplayr.com",
+  "url": "https://teraplayr.com",
   "description": "Watch, Embed and download Terabox Videos 🔥 100% working ✅ Download Terabox videos with TeraDL",
   "publisher": {
     "@type": "Organization",
-    "name": "Terabox.tech"
+    "name": "teraplayr.com"
   },
   "aggregateRating": {
     "@type": "AggregateRating",
