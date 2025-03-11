@@ -78,10 +78,10 @@ const Downloader = () => {
         {/* Hero Section */}
         <div className="text-center space-y-4">
           <h1 className="text-5xl font-black bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-violet-400">
-            Terabox Video Player
+            Terabox Video Downloader
           </h1>
           <p className="text-slate-400 text-lg">
-            Watch, Download & Share Terabox videos free
+            Download, embed and share Terabox videos seamlessly
           </p>
         </div>
 
@@ -254,25 +254,39 @@ export const TeraboxScriptSection = () => {
   if (!mounted) {
     return null;
   }
+
   return (
     <section className="py-16 text-center">
       <div className="max-w-3xl mx-auto px-4">
         <div className="bg-slate-800/50 backdrop-blur-lg rounded-2xl p-8 shadow-xl border border-slate-700">
           <div className="space-y-6">
             <h2 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-violet-400">
-              Free Terabox Video Player
+              Premium Terabox Script
             </h2>
 
             {/* Price and Timer Section */}
             <div className="bg-slate-900/50 p-4 rounded-xl">
               <div className="text-2xl font-bold text-white mb-2">
-                <span className="line-through text-gray-400">Login Needed</span>
-                <span className="ml-3 text-green-400">No App or Download Needed</span>
-                <span className="ml-2 text-amber-400">Only Paste & Play</span>
+                <span className="line-through text-gray-400">₹{originalPrice.toFixed(2)}</span>
+                <span className="ml-3 text-green-400">₹{currentPrice}</span>
+                <span className="ml-2 text-amber-400">({discountPercentage}% OFF)</span>
               </div>
               <div className="text-amber-400 font-semibold">
-                🚫Please support us by avoiding Ad-blockers🚫
-              </div>
+                Limited Time Offer Ends On March 9, 2025:
+                <div className="flex justify-center gap-4 mt-2">
+                  <div className="bg-slate-800 px-3 py-2 rounded-lg">
+                    <span className="text-xl">{timeLeft.days}</span>d
+                  </div>
+                  <div className="bg-slate-800 px-3 py-2 rounded-lg">
+                    <span className="text-xl">{timeLeft.hours}</span>h
+                  </div>
+                  <div className="bg-slate-800 px-3 py-2 rounded-lg">
+                    <span className="text-xl">{timeLeft.minutes}</span>m
+                  </div>
+                  <div className="bg-slate-800 px-3 py-2 rounded-lg">
+                    <span className="text-xl">{timeLeft.seconds}</span>s
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -285,9 +299,68 @@ export const TeraboxScriptSection = () => {
                   <li>✓ Embed player support</li>
                   <li>✓ Auto video quality selection</li>
                   <li>✓ No watermarks</li>
+                  <li>✓ Lifetime updates</li>
                 </ul>
-              
+              </div>
+
+              <div className="space-y-4">
+                <h3 className="text-xl font-semibold text-white">Benefits</h3>
+                <ul className="space-y-2 text-slate-300">
+                  <li>✓ Easy integration</li>
+                  <li>✓ 24/7 Technical support</li>
+                  <li>✓ Documentation included</li>
+                  <li>✓ API access</li>
+                  <li>✓ Multiple domain license</li>
+                </ul>
+              </div>
             </div>
+
+            {/* Action Button and Links */}
+            <div className="space-y-4">
+              <a
+                href="https://payments.cashfree.com/forms/teradl"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-8 py-4 bg-green-600 hover:bg-green-500 rounded-xl transition-all duration-200 shadow-lg hover:shadow-green-500/25 text-white text-lg font-semibold inline-block"
+              >
+                <RocketIcon className="w-5 h-5 inline-block mr-2" />
+                Get Premium Script - ₹999 Only
+              </a>
+              
+              <div className="text-sm space-y-2 ">
+                <div>
+                  <a
+                    href="https://t.me/player1921"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:text-blue-300"
+                  >
+                    Contact on Telegram
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href="https://marketplace.terabox.tech/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-amber-400 hover:text-amber-300"
+                  >
+                    Explore Marketplace
+                  </a>
+                </div>
+                <div className="text-slate-400">
+                  Need help? Contact our support team at{" "}
+                  <a
+                    href="mailto:jokes4ush@gmail.com"
+                    className="text-blue-400 hover:text-blue-300"
+                  >
+                    mail@terabox.tech
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Remove the old buttons and links */}
           </div>
         </div>
       </div>
