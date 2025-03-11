@@ -43,12 +43,12 @@ const jsonld = `
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "teraplayr.com",
-  "url": "https://teraplayr.com",
+  "name": "Terabox.tech",
+  "url": "https://terabox.tech",
   "description": "Watch, Embed and download Terabox Videos 🔥 100% working ✅ Download Terabox videos with TeraDL",
   "publisher": {
     "@type": "Organization",
-    "name": "teraplayr.com"
+    "name": "Terabox.tech"
   },
   "aggregateRating": {
     "@type": "AggregateRating",
@@ -57,7 +57,6 @@ const jsonld = `
   }
 }
 </script>`;
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className=" bg-black"  >
