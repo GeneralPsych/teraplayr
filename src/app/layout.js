@@ -62,6 +62,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className=" bg-black"  >
       <head>
+        <script data-cfasync="false" src="//d11kp34sgosvfa.cloudfront.net/?gspkd=1160435"></script>
         <link rel="icon" href="/image.png" />
         <link rel="apple-touch-icon" href="/favicon.ico" />
         <link rel="manifest" href="/manifest.json" />
