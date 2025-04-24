@@ -36,7 +36,7 @@ let analytics = `
   gtag('js', new Date());
 
   gtag('config', 'G-7RJW86QMV7');
-</script>';
+</script>;'
 
 const jsonld = `
 <script type="application/ld+json">
