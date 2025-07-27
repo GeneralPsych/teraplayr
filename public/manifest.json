@@ -1,6 +1,6 @@
 {
-  "name": "Terabox Player",
-  "short_name": "Terabox Player",
+  "name": "Teraplayr.com",
+  "short_name": "TeraPlayr",
   "description": "Terabox Video Player and Downloader",
   "start_url": "/",
   "display": "standalone",
