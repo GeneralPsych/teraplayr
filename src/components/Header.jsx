@@ -21,7 +21,7 @@ export function Header() {
             href="/"
             className="flex items-center gap-3 transition duration-200 hover:opacity-80"
           >
-            
+            <favicon.ico></favicon.ico>
             <span className="text-lg font-bold bg-gradient-to-r from-white to-white/70 bg-clip-text text-transparent">
               TeraPlayr - Free Terabox Link Opener
             </span>
